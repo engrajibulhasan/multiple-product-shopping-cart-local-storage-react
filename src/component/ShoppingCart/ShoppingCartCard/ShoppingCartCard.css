@@ -1,0 +1,36 @@
+.cartCart {
+  display: flex;
+  text-align: left;
+  align-items: center;
+}
+.imageDiv {
+  width: 120px;
+}
+.imageDiv img {
+  width: 100%;
+}
+
+.idBtn {
+}
+.idBtn input[type="text"] {
+  width: 40px;
+}
+
+.infoDiv {
+  padding: 5px 10px;
+  width: 400px;
+}
+.infoDiv h2 {
+  margin: 0;
+}
+.infoDiv p {
+  margin: 0;
+}
+.itemTotal {
+  width: 120px;
+}
+.actionDiv {
+  width: 120px;
+}
+.actionDiv button {
+}

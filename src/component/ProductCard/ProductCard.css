@@ -1,0 +1,15 @@
+.card-box {
+  border: 4px solid rgb(187, 187, 216);
+  width: 230px;
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+.card-box p {
+  font-size: 12px;
+}
+
+.card-box img {
+  width: 100%;
+}
