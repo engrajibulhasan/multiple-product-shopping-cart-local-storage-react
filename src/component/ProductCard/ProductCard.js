@@ -2,7 +2,8 @@ import React from 'react';
 import './ProductCard.css';
 
 const ProductCard = (props) => {
-    const { id, productName, price, initQnty, stock, unit, image } = props.info;
+  const { id, productName, price, initQnty, stock, unit, image } = props.info;
+  const qnty = initQnty;
     return (
       <div className="card-box">
         <h2>{productName}</h2>
@@ -21,6 +22,7 @@ const ProductCard = (props) => {
               unit,
               image,
               initQnty,
+              qnty,
             })
           }
         >
