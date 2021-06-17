@@ -1,6 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { CartContext } from '../../App';
-import { removeFromDatabaseCart } from "../../utilities/localDataManager";
 import './ShoppingCart.css';
 import ShoppingCartCard from './ShoppingCartCard/ShoppingCartCard';
 
@@ -15,7 +14,7 @@ const ShoppingCart = () => {
   const removeProduct = (id) => {
     const productAfterRemove = cart.filter((pd) => pd.id !== id);
     setCart(productAfterRemove);
-    removeFromDatabaseCart(id);
+    localStorage.removeItem(id);
   };
 
   //This will mount after cart firing

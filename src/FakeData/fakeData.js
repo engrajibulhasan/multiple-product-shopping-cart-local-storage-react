@@ -32,7 +32,7 @@ const fakeData = [
   {
     id: 4,
     productName: "Sunflower Oil",
-    price: 180,
+    price: 350,
     initQnty: 2,
     qnty: 1,
     stock: 216,
